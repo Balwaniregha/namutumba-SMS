@@ -1,0 +1,33 @@
+STANDARD SMS GUIDE
+
+1. LEVELS
+- S1-S4: O-Level, streams A, B, C, no combinations.
+- S5-S6: A-Level, Arts and Sciences, no streams.
+
+2. TEACHER ACCESS
+- Admin creates teacher users from School Users.
+- Assign each teacher a subject and class/section.
+- When the teacher logs in, only the assigned subject/class marks page opens.
+- Teachers cannot view report cards, fees, admissions, or school settings.
+
+3. O-LEVEL MARKS ENTRY
+For S1-S4, teachers enter:
+- T1 Score and T1 Out of
+- T2 Score and T2 Out of
+- T3 Score and T3 Out of
+- T4 Score and T4 Out of
+- T5 Score and T5 Out of
+The system converts raw marks to /3 using: raw score / marked out of × 3.
+The O-Level report card displays the converted T1-T5 scores out of 3 and calculates the formative score out of 20.
+
+4. MISSED ASSESSMENT
+- Enter X or - for a missed assessment.
+- The subject will show X on the O-Level report card.
+- The comment becomes Missed Assessment.
+
+5. A-LEVEL MARKS ENTRY
+For S5-S6, teachers enter C1-C5 score and marked-out-of values.
+The system calculates the weight, grade, descriptor, total points, and comments.
+
+6. BACKUP
+Use Backup to save your data as JSON.
